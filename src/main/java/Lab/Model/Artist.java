@@ -37,6 +37,10 @@ public class Artist {
     public Artist(String name) {
         this.name = name;
     }
+
+    // public List<Album> getAlbums(List<Album> albums) {
+
+    // }
     /**
      * A custom toString() is provided that avoids recursively serializing related entities.
      */
